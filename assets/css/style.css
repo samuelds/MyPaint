@@ -1,0 +1,104 @@
+body {
+    background-color: #BDBDBD;
+}
+
+#tools {
+    padding: 10px;
+    border-bottom: 2px #2c3e50 solid;
+    margin-bottom: 10px;
+    background-color: #455A64;;
+}
+
+#tools a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+#canvasDiv {
+    display:inline-block;;
+    vertical-align: top;
+    border: 1px solid gray;
+    background: url('../img/bg.png');
+    min-width: 700px;
+    min-height: 700px;
+}
+
+#canvasDiv .calque {
+    position: absolute;
+}
+
+#prevews {
+    display: inline-block;
+    width: 112px;
+    border: 1px solid gray;
+    background-color: #F5F5F5;
+    vertical-align: top;
+}
+
+#prevews .prevew {
+    border: 1px red solid;
+    margin: 5px;
+    background: url('../img/bg.png');
+}
+
+#size {
+    display: inline-block;
+    color: #fff;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#panel {
+    width: 200px;
+}
+
+#panel.display {
+    display: inline-block;
+}
+
+#panel.hiden {
+    display: none;
+}
+
+#colors, #custum {
+    border: 1px solid gray;
+    background-color: #F5F5F5;
+}
+
+#colors .color, #custum .color {
+    border: 1px #2c3e50 solid;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    margin: 1px;
+    border-radius: 17.5px;
+}
+
+#add-color {
+    display: inline-block;
+}
+
+#courentColor {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: top;
+    margin-left: 25px;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#copyright a, #sub-copyright a {
+    color: #000;
+}
+
+#sub-copyright {
+    margin-top: 5px;
+    text-align: center;
+}

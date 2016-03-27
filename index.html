@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Paint</title>
+    <link property='stylesheet' rel="stylesheet" href="assets/css/reset.css" />
+    <link property='stylesheet' rel="stylesheet" href="assets/css/style.css" />
+    <link property='stylesheet' rel="stylesheet" type="text/css" href="assets/font/flaticon.css">
+</head>
+<body>
+    <header>
+        <div id="tools"></div>
+    </header>
+
+    <section id="panel" class="hiden">
+        <div id="colors"></div>
+        <div id="add-color">
+            <form id="form-color" action="#" method="get">
+                <input type="color" name="color" id="colorPicker"/>
+                <input type="submit" value="add">
+            </form>
+            <div id="custum"></div>
+        </div>
+    </section>
+
+    <div id="canvasDiv"></div>
+
+    <div id="prevews"></div>
+
+    <p id="copyright">
+        Copyright © 2016 Samuel Da Silva, Tous droits réservés - License : <a href="http://www.gnu.org/licenses/gpl-3.0.fr.html">GNU v3.0</a>
+    </p>
+    <p id="sub-copyright">
+        Icons <a href="http://www.freepik.com/">designed by Freepik</a>
+    </p>
+
+    <!-- javascript -->
+    <script src="assets/js/MyPaints/main.js" type="text/javascript"></script>
+    <script src="assets/js/MyPaints/calques.js" type="text/javascript"></script>
+    <script src="assets/js/MyPaints/tools/paint.js" type="text/javascript"></script>
+    <script src="assets/js/MyPaints/tools/size.js" type="text/javascript"></script>
+    <script src="assets/js/MyPaints/tools/save.js" type="text/javascript"></script>
+    <script src="assets/js/MyPaints/tools/pencil.js" type="text/javascript"></script>
+    <script src="assets/js/MyPaints/tools/eraser.js" type="text/javascript"></script>
+    <script src="assets/js/MyPaints/tools/line.js" type="text/javascript"></script>
+    <script src="assets/js/MyPaints/tools/cercleEmpty.js" type="text/javascript"></script>
+    <script src="assets/js/MyPaints/tools/cercleFull.js" type="text/javascript"></script>
+    <script src="assets/js/MyPaints/tools/squareEmpty.js" type="text/javascript"></script>
+    <script src="assets/js/MyPaints/tools/squareFull.js" type="text/javascript"></script>
+    <script src="assets/js/MyPaints/tools/delete.js" type="text/javascript"></script>
+</body>
+</html>
