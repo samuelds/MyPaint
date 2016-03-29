@@ -32,6 +32,7 @@
                 var mouseX = e.pageX - e.target.offsetLeft;
                 var mouseY = e.pageY - e.target.offsetTop;
                 this.actif = true;
+                this.context = calques.courent.calque.getContext("2d");
                 this.context.beginPath();
                 this.context.moveTo((mouseX - 1), mouseY);
                 this.context.lineTo(mouseX, mouseY);
@@ -68,7 +69,6 @@
         init: function () {
             this.createElement();
             this.addListeners();
-            this.context = calques.courent.calque.getContext("2d");
         }
     };
     global.eraser = tool;
